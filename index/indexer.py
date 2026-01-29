@@ -1,4 +1,3 @@
-from ollama import chat
 from sentence_transformers import SentenceTransformer
 import faiss
 import json

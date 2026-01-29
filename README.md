@@ -7,12 +7,15 @@ get phi, phi4 model, `ollama pull phi`  <br/>
 install python modules, `pip install fastapi uvicorn ollama` <br/>
                        `pip install fastapi uvicorn ollama sentence-transformers faiss-cpu` <br/>
 
-![Example](NL-to-SQL.png)
 
 `python Main.py` <br/>
-`python .\index\indexer.py` to run Main2.py <br/>
 `python Main2.py` <br/>
 
+
+![Example](NL-to-SQL.png)
+
+Custom provided huge schema defination can be indexed doing <br/>
+`python .\index\indexer.py` <br/>
 
 Optionals: <br>
 To see while you wait for ollama to respond <br/>
@@ -20,3 +23,4 @@ To see while you wait for ollama to respond <br/>
 `taskkill /IM ollama.exe` /F  <br/>
 if you want to start ollama from command line  </br>
 `ollama serve`
+`test.sh` simply run a prompt in ollama
