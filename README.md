@@ -11,6 +11,10 @@ install python modules, `pip install fastapi uvicorn ollama` <br/>
 `python Main.py` <br/>
 `python Main2.py` <br/>
 
+# Purpose that extends As Data Analysis Agent
+## Finding AI best and efficient models to use offline that overcomes need of generating sql from natural laguage
+## Providing best need context to it from huge schema set/descriptions
+## Query can be used via SQL tools, DBeaver, MySQL Workbench to get data/reports etc...
 
 ![Example](NL-to-SQL.png)
 
@@ -24,3 +28,5 @@ To see while you wait for ollama to respond <br/>
 if you want to start ollama from command line  </br>
 `ollama serve`
 `test.sh` simply run a prompt in ollama
+
+
